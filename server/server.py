@@ -6,8 +6,8 @@ Created on Mon Dec 21 13:05:13 2020
 """
 
 from flask import Flask, request, jsonify, render_template
-#import server.util as util  #replace this by import util for running locally
-import util
+import server.util as util  #replace this by import util for running locally
+#import util
 
 app = Flask(__name__, static_url_path="/client", static_folder='../client', template_folder="../client")
 
